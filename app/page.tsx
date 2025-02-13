@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -15,13 +16,22 @@ export default function Home() {
           {/* Hero Section */}
           <div className="space-y-6 mb-16">
             <div className="inline-block animate-fade-in">
-              <h1 className="text-5xl md:text-7xl font-bold tracking-tight">
-                SandGrain
-                <span className="bg-gradient-to-r from-blue-400 to-indigo-500 text-transparent bg-clip-text">
-                  {" "}
-                  AI
-                </span>
-              </h1>
+              <div className="flex items-center justify-center gap-4 mb-6">
+                <Image
+                  src="/logo.png"
+                  alt="SandGrain AI Logo"
+                  width={32}
+                  height={32}
+                  className="w-12 h-12 md:w-16 md:h-16"
+                />
+                <h1 className="text-5xl md:text-7xl font-bold tracking-tight">
+                  SandGrain
+                  <span className="bg-gradient-to-r from-blue-400 to-indigo-500 text-transparent bg-clip-text">
+                    {" "}
+                    AI
+                  </span>
+                </h1>
+              </div>
             </div>
             <p className="text-xl md:text-2xl text-gray-300 max-w-2xl mx-auto leading-relaxed">
               Building intelligent solutions that transform complex data into
