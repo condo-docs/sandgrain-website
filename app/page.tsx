@@ -140,7 +140,7 @@ export default function Home() {
               {[
                 {
                   name: "Ewan May",
-                  role: "CEO",
+                  role: "Head of Development",
                   experience:
                     "Former software developer at Arcurve and head of development at Voco",
                   image: "/images/ewan-headshot.jpeg",
@@ -149,7 +149,7 @@ export default function Home() {
                 },
                 {
                   name: "Nyle MacLeod",
-                  role: "CRO",
+                  role: "Head of Sales & Growth",
                   experience: "Former head of growth at Quickly",
                   image: "/images/nyle-headshot.jpeg",
                   linkedin: "https://www.linkedin.com/in/nyle-macleod/",
@@ -157,7 +157,7 @@ export default function Home() {
                 },
                 {
                   name: "Zakir Nurmohamed",
-                  role: "In-house Expert & Product Advisor",
+                  role: "In-house Expert",
                   experience:
                     "Former condominium manager at Equium, current Condo/HOA manager at Simco",
                   image: "/images/zakir-headshot.jpeg",
