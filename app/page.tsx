@@ -143,7 +143,7 @@ export default function Home() {
                   role: "Head of Development",
                   experience:
                     "Former software developer at Arcurve and head of development at Voco",
-                  image: "/images/ewan-headshot.jpeg",
+                  image: "/images/ewan-headshot.jpg",
                   linkedin: "https://www.linkedin.com/in/ewan-may/",
                   email: "ewan@sandgrain.ai",
                 },
